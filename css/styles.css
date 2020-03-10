@@ -211,14 +211,6 @@ p {
 
 /* REGISTRATION PAGE NAVBAR  */
 
-  #registration .navbar {
-      padding: 0 0 2rem;
-  }
-
-  #registration .container-fluid {
-      text-align: left;
-      padding: 1% 15%;
-  }
 
   #registration-intro {
       padding: 2% 15%;
@@ -227,9 +219,9 @@ p {
 
   .registration-title {
       padding: 5% 0 3% 0;
-      font-size: 4.5rem;
-      font-weight: 900;
-      line-height: 1.5;
+      font-size: 5.5vw;
+      font-weight: 800;
+      line-height: 1.2;
       color: #eb7f37;
   }
 
@@ -252,8 +244,7 @@ p {
         rgba(0, 0, 0, 0.6)),
     url('../images/wood-wallpaper.jpg');
     ;
-    width: 100%;
-    height: 100vh;
+    width: auto;
     background-size: cover;
     background-attachment: fixed;
 }
