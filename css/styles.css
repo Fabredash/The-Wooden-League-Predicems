@@ -57,12 +57,12 @@ p {
         font-size: 1.2rem;
     }
 
-.blitz-group {
-    width: 120%;
-    margin-top: 2rem;
-    padding-right: 60px;
-    position: relative;
-    right:10%;
+    .blitz-group {
+        width: 120%;
+        margin-top: 2rem;
+        padding-right: 60px;
+        position: relative;
+        right:10%;
 
 }
 
@@ -205,4 +205,59 @@ p {
 
 .social-icon{
     margin: 20px 10px;
+}
+
+/* REGISTRATION PAGE REGISTRATION PAGE REGISTRATION PAGE REGISTRATION PAGE REGISTRATION PAGE REGISTRATION PAGE  */
+
+/* REGISTRATION PAGE NAVBAR  */
+
+  #registration .navbar {
+      padding: 0 0 2rem;
+  }
+
+  #registration .container-fluid {
+      text-align: left;
+      padding: 1% 15%;
+  }
+
+  #registration-intro {
+      padding: 2% 15%;
+      height: auto;
+  }
+
+  .registration-title {
+      padding: 5% 0 3% 0;
+      font-size: 4.5rem;
+      font-weight: 900;
+      line-height: 1.5;
+      color: #eb7f37;
+  }
+
+  /* REGISTRATION FORM  */
+
+.form-container{
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px 0px #000;
+    background-color: #fff;
+    height: auto;
+}
+
+.form-group{
+    text-align: left;
+}
+
+.bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)),
+    url('../images/wood-wallpaper.jpg');
+    ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.signup-footer{
+    color: #fff;
 }
