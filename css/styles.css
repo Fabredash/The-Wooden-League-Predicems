@@ -90,6 +90,11 @@ p {
         font-size: 3rem;
         font-weight: 800;
         line-height: 1.5;
+        color: #fff;
+}
+
+.make-white{
+    color: #fff;
 }
 
 .icon {
@@ -100,15 +105,18 @@ p {
 .icon:hover {
     color: #eb7f37;
 }
+.fa-spin-hover:hover {
+    animation: fa-spin 2s infinite linear;
+}
 
 /* TESTIMONIALS SECTION */
 
-#testimonials {
-    padding: 2% 15% 0 15%;
+#leagues {
+    padding: 2% 15% 5% 15%;
 
 }
 
-.testimonials-title {
+.leagues-title {
     padding-bottom: 1%;
     font-size: 3rem;
     font-weight: 800;
@@ -116,19 +124,23 @@ p {
 
 }
 
-.testimonial-image-1 {
+.league-carousel{
+    padding-bottom: 30%;
+}
+
+.league-image-1 {
     width: 30%;
 }
 
-.testimonial-image-2 {
+.league-image-2 {
     width: 65%;
 }
 
-.testimonial-image-3 {
+.league-image-3 {
     width: 70%;
 }
 
-.testimonial-image-4 {
+.league-image-4 {
     width: 30%;
 }
 
@@ -197,6 +209,17 @@ p {
      font-size: 3rem;
      font-weight: 800;
      line-height: 1.5;
+     color: #eb7f37;
+}
+
+.bg-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)),
+        url('../images/harold-1.jpg');
+    ;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #footer{
@@ -223,7 +246,11 @@ p {
       font-weight: 800;
       line-height: 1.2;
       color: #eb7f37;
+      width: 130%;
+      margin-left: -15%;
   }
+
+
 
   /* REGISTRATION FORM  */
 
@@ -242,7 +269,7 @@ p {
 .bg{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.6)),
-    url('../images/wood-wallpaper.jpg');
+    url('../images/wood-wallpaper-2.jpg');
     ;
     width: auto;
     background-size: cover;
@@ -250,5 +277,5 @@ p {
 }
 
 .signup-footer{
-    color: #fff;
+    color:#8f8f8f;
 }
